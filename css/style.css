@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    background-color: #191414;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.logo{
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title{
+    margin: 30px 0 10px 35px;
+    color: white;
+    font-size: 34px;
+}
+.songList{
+    margin: 40px 0 0 40px;
+}
+.songItem{
+    height: 50px;
+    width: 500px;
+    background-color: black;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 12px 0;
+}
+.songItem img{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.songName , .songListPlay{
+    color: white;
+}
+.songListPlay{
+    display: flex;
+    align-items: center;
+}
+.songListPlay .duration{
+    font-size: 14px;
+}
+.songListPlay i{
+    margin: 0 10px;
+}
+.bottom{
+    margin-top: 50px;
+}
+.timeline input{
+    width: 100%;
+}
+input[type="range"] {
+    accent-color: white;
+    height: 5px;
+    cursor: pointer;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.buttons{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.controls i{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+}
+i{
+    cursor: pointer;
+}
+.current{
+    width: 33%;
+}
+#currentSong{
+    color: white;
+}
+.time{
+    width: 33%;
+}

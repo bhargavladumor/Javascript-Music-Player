@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Images/logo.png" height="35px" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title">
+            <div class="container">
+                <h1 class="title">Best song's list is here :</h1>
+            </div>
+        </div>
+
+        <section class="list">
+            <div class="container">
+
+                <div class="songList">
+                    <div class="songItem">
+                        <img src="Images/0.jpg">
+                        <span class="songName">Katy Perry - Harleys In Hawaii</span>
+                        <div class="songListPlay">
+                            <span class="duration">3:14</span>
+                            <i id="0" class="songItemPlay fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+                    <div class="songItem">
+                        <img src="Images/1.jpeg">
+                        <span class="songName">Jay Sean - Ride It</span>
+                        <div class="songListPlay">
+                            <span class="duration">3:13</span>
+                            <i id="1" class="songItemPlay fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+                    <div class="songItem">
+                        <img src="Images/2.jpg">
+                        <span class="songName">The Weeknd - Starboy</span>
+                        <div class="songListPlay">
+                            <span class="duration">4:34</span>
+                            <i id="2" class="songItemPlay fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+                    <div class="songItem">
+                        <img src="Images/3.jpeg">
+                        <span class="songName">Clean Bandit - Rockabye</span>
+                        <div class="songListPlay">
+                            <span class="duration">4:14</span>
+                            <i id="3" class="songItemPlay fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+                    <div class="songItem">
+                        <img src="Images/4.jpeg">
+                        <span class="songName">Sia - Cheap Thrills</span>
+                        <div class="songListPlay">
+                            <span class="duration">4:22</span>
+                            <i id="4" class="songItemPlay fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+                    <div class="songItem">
+                        <img src="Images/5.jpeg">
+                        <span class="songName">Sean Paul - No Lie</span>
+                        <div class="songListPlay">
+                            <span class="duration">3:49</span>
+                            <i id="5" class="songItemPlay fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bottom">
+            <div class="container">
+                <div class="timeline">
+                    <input type="range" value="0" step="0.1" id="progressBar">
+                </div>
+                <div class="controls">
+                    <div class="current">
+                        <span id="currentSong">Katy Perry - Harleys In Hawaii</span>
+                    </div>
+                    <div class="buttons">
+                        <i id="prev" class="fa-solid fa-backward"></i>
+                        <div id="masterPlay">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                        <i id="next" class="fa-solid fa-forward"></i>
+                    </div>
+                    <div class="time"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
